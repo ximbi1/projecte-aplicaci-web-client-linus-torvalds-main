@@ -1,0 +1,87 @@
+.tragamonedas-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 300px;
+  }
+  
+  .tragamonedas-fila {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  
+  .tragamonedas-simbolo {
+    font-size: 2rem;
+    margin: 0 5px;
+    display: inline-block;
+    animation: girar 0.5s ease-in-out;
+  }
+  
+  @keyframes girar {
+    0% { transform: rotateX(0); }
+    100% { transform: rotateX(360deg); }
+  }
+  
+  .tragamonedas-boton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .tragamonedas-boton:hover {
+    background-color: #45a049;
+  }
+  
+  .tragamonedas-boton:active {
+    background-color: #397d35;
+  }
+  
+  .tragamonedas-boton:disabled {
+    background-color: #cccccc;
+    color: #666666;
+  }
+  
+.tragamonedas-container {
+  text-align: center;
+}
+
+.tragamonedas-ruedas {
+  font-size: 2rem;
+  margin: 10px;
+}
+
+.tragamonedas-credito {
+  margin: 10px;
+}
+
+.tragamonedas-boton {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+@keyframes girar {
+  0% { transform: rotateX(0); }
+  100% { transform: rotateX(360deg); }
+}
+
+.tragamonedas-simbolo {
+  display: inline-block;
+  animation: girar 0.5s ease-in-out;
+}
+
+  

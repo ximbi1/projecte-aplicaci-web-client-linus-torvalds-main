@@ -1,0 +1,59 @@
+.ruleta-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #999191;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 400px;
+  }
+  
+  .ruleta-rueda {
+    margin: 20px 0;
+    /*  añadir estilos para la imagen o gráfico de la rueda */
+  }
+  
+  .ruleta-resultado {
+    font-size: 1.2rem;
+    color: #0c0101;
+    margin: 10px 0;
+  }
+  
+  input[type="text"], input[type="number"] {
+    margin: 10px;
+    padding: 8px;
+    border: 1px solid #632929;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  select {
+    margin: 10px;
+    padding: 8px;
+    border: 1px solid #996161;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: rgb(155, 144, 144);
+    color: rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:disabled {
+    background-color: #cccccc;
+    color: #666666;
+  }
+  
